@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMS2FreeExporter", "GMS2FreeExporter\GMS2FreeExporter.csproj", "{1D753CC9-C39B-4450-8206-557F3E2F9E1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D753CC9-C39B-4450-8206-557F3E2F9E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D753CC9-C39B-4450-8206-557F3E2F9E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D753CC9-C39B-4450-8206-557F3E2F9E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D753CC9-C39B-4450-8206-557F3E2F9E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8D00DD3-C50C-46CD-86FE-5638D044C8A5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<Window x:Class="GMS2FreeExporter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GMS2FreeExporter"
+        mc:Ignorable="d"
+        Title="GMS2 Free Exporter by Cube" Height="142" Width="359">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblRunnerStatus" Content="Not Running" HorizontalAlignment="Left" Margin="99,18,0,0" VerticalAlignment="Top"/>
+        <Label Content="Runner Status: " HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnExport" Content="Export" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btnExport_Click"/>
+        <Label Content="Game Data: " HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboGameData" HorizontalAlignment="Left" Margin="99,49,0,0" VerticalAlignment="Top" Width="211" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnExportZip" Content="Export Zip" HorizontalAlignment="Left" Margin="99,75,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btnExportZip_Click"/>
+
+    </Grid>
+</Window>
